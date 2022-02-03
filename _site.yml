@@ -1,0 +1,33 @@
+name: "epi"
+title: "SDCA Epidemiology Group"
+base_url: https://steno-aarhus.github.io/epi/
+exclude:
+    - "R"
+    - "LICENSE.md"
+    - "LICENSE.html"
+    - "DESCRIPTION"
+description: |
+  Welcome page to the SDCA Epidemiology Group.
+output_dir: "_site"
+theme: theme.css
+repository_url: https://github.com/steno-aarhus/epi
+creative_commons: CC BY
+navbar:
+  search: true
+  left:
+    - icon: "fas fa-home"
+      href: index.html
+  right:
+    - text: "Admin"
+      menu:
+        - text: "Contributing"
+          href: CONTRIBUTING.html
+        - text: "Code of Conduct"
+          href: CONDUCT.html
+    - text: "Common Docs"
+      href: https://steno-aarhus.github.io/research/
+  source_url: true
+output:
+    distill::distill_article:
+        toc: true
+        toc_depth: 2

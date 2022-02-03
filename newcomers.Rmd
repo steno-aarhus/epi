@@ -1,0 +1,7 @@
+---
+title: "New to the group? Welcome!"
+description: |
+    Some information to help orient people new to the group.
+date: "`r Sys.Date()`"
+---
+
