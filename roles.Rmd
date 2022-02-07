@@ -1,7 +1,7 @@
 ---
-title: "Roles and responsibilities for meetings and activities"
+title: "Group roles and duties"
 description: |
-    Documentation on how to use the Trello board, 
+    Documentation on using the Trello board,
     what we do during the meetings and events, 
     and how to participate.
 date: "`r Sys.Date()`"
