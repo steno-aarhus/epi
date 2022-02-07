@@ -18,3 +18,14 @@ and by contributing to this project you agree to abide by its terms.
 This project is also licensed under a 
 [CC-BY 4.0](https://github.com/steno-aarhus/epi/blob/main/LICENSE.md)
 and by contributing any content, you agree to the licenses terms.
+
+### For organizers
+
+If you want to use the R scripts you need to install the necessary packages.
+Open up the `epi.Rproj` in RStudio and in the R Console, copy and paste these
+functions.
+
+```r
+# Install remotes package first
+remotes::install_deps(dependencies = TRUE)
+```
