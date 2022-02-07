@@ -5,6 +5,8 @@ library(calendar)
 library(trelloR)
 library(askpass)
 
+stop("This prevents accidentally sourcing the whole script.")
+
 # Details about getting Key and OAuth Secret found here:
 # https://developer.atlassian.com/cloud/trello/guides/rest-api/authorization/
 trello_key <- askpass("Trello Key.")

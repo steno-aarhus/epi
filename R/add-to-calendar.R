@@ -4,6 +4,8 @@ library(lubridate)
 library(calendar)
 library(glue)
 
+stop("This prevents accidentally sourcing the whole script.")
+
 meeting_dates <- tribble(
         ~month, ~day,
         "January", 3,
@@ -46,4 +48,4 @@ current_calendar <- ic_read(public_calendar_link) %>%
 
 new_calendar_data <- anti_join(upcoming_meetings, current_calendar)
 
-ic_write(ical(new_calendar_data), here::here("calendar.ics"))
+ic_write(ical(new_calendar_data), here::here("R/calendar.ics"))
