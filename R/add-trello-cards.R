@@ -22,13 +22,9 @@ token <- get_token(
 )
 
 board_url <- "https://trello.com/b/ipcYGXhC/epidemiology-group"
-template_card_id <- get_id_card("https://trello.com/c/R3yLGu70/1-yyyy-mm-dd", token = token)
 upcoming_board_id <- get_board_lists(board_url, token = token) %>%
     filter(str_detect(name, "Upcoming")) %>%
     pull(id)
-
-template_card <- get_board_cards(board_url, token = token) %>%
-    filter(id == template_card_id)
 
 public_calendar_link <- "https://calendar.google.com/calendar/ical/086okoggkv7c4b0dcbbrj230s8%40group.calendar.google.com/public/basic.ics"
 upcoming_meetings <- ic_read(public_calendar_link) %>%
@@ -43,15 +39,21 @@ meetings_to_add <- upcoming_meetings %>%
               date = as.character(as_date(DTSTART))) %>%
     filter(year == "2022")
 
+meeting_label <- get_board_labels(board_url, token = token) %>%
+    filter(name == "Meeting") %>%
+    pull(id)
+
+template_card_desc <- read_lines(here::here("R/card-template.md"))
+
 meetings_to_add$date[-1] %>%
     walk(
         ~ add_card(
             upcoming_board_id,
             body = list(
                 name = .x,
-                desc = template_card$desc,
+                desc = template_card_desc,
                 pos = "bottom",
-                idLabels = array(unlist(template_card$idLabels))
+                idLabels = array(meeting_label)
             ),
             token = token
         )
