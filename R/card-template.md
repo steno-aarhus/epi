@@ -2,11 +2,8 @@
 
 ## General information
 
-- See our [Steno Epi group website](https://steno-aarhus.github.io/epi) for more
-details, like [how-to docs](https://steno-aarhus.github.io/epi/how-to.html) and
-[description of roles](https://steno-aarhus.github.io/epi/roles.html)
-- [SDCA Common Docs website](https://steno-aarhus.github.io/research/) for
-general practices, onboarding, help, etc.
+- See our [Steno Epi group website](https://steno-aarhus.github.io/epi) for more details, like [how-to docs](https://steno-aarhus.github.io/epi/how-to.html) and [description of roles](https://steno-aarhus.github.io/epi/roles.html)
+- [SDCA Common Docs website](https://steno-aarhus.github.io/research/) for general practices, onboarding, help, etc.
 - Newcomer? [Read this section.](https://steno-aarhus.github.io/epi/newcomers.html)
 
 ## Meeting details
