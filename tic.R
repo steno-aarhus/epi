@@ -1,5 +1,6 @@
 get_stage("install") %>%
-  add_step(step_install_deps())
+    # only install imports packages.
+    add_step(step_install_deps(dependencies = "hard"))
 
 get_stage("deploy") %>%
   add_code_step(rmarkdown::render_site())
