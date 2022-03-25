@@ -51,6 +51,25 @@ Steno Drive is here: https://drive.google.com/drive/folders/1WfuGzUeiSHYiecFcN7d
 
 * Use this for e.g. making surveys for getting details from people
 
+### Email template to send to newcomers
+
+Dear ...
+
+Welcome to our Epidemiology group!
+
+Here is your invite to our Trello board: ADD BOARD LINK BEFORE SENDING
+
+Here you can:
+
+1. Find "upcoming meetings" with time, location, and agenda
+2. Read minutes from previous meetings
+
+Look over the SDCA Epidemiology Group website for how-to information and other details.
+
+Kind regards,
+
+NAME
+
 # Minute taker
 
 - You do _not_ need to do any pre-meeting preparation.
