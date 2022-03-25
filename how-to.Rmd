@@ -7,7 +7,7 @@ description: |
 date: "`r Sys.Date()`"
 ---
 
-# Subscribing to the calendar
+# Subscribing to the calendar {#subscribe-calendar}
 
 **Public calendar URL to copy and paste**: https://calendar.google.com/calendar/ical/086okoggkv7c4b0dcbbrj230s8%40group.calendar.google.com/public/basic.ics
 
@@ -21,6 +21,18 @@ date: "`r Sys.Date()`"
 ## Add calendar via Desktop Outlook app
 
 See the [Microsoft Support Docs](https://support.microsoft.com/en-us/topic/cff1429c-5af6-41ec-a5b4-74f2c278e98c) on subscribing to calendars.
+
+<!--
+# Adding an event to the calendar
+
+NOTE: Still in pr
+
+TODO: What should get added to the calendar?
+
+1. Use the survey and fill out the form with the details of the event. These details
+will get added to the calendar automatically.
+2. Add an item to the agenda of the next upcoming meeting mentioning the event.
+-->
 
 # Using the Trello board
 
