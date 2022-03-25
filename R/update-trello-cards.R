@@ -33,12 +33,11 @@ template_card <- read_lines(here::here("R/card-template.md")) %>%
 # Use to check if there are any new additions before updating.
 # Just in case you accidentally delete/overwrite something.
 # Modify the code below to fit the purposes of the update.
-old_content <- upcoming_board_cards %>%
-    pull(desc) %>%
-    cat()
+old_content <- upcoming_board_cards
+# pull(old_content, desc)
 
 walk(
-    upcoming_board_cards$id,
+    upcoming_board_cards$id[-1],
     ~ update_resource(
         "card",
         id = .x,
