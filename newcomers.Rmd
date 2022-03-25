@@ -5,3 +5,9 @@ description: |
 date: "`r Sys.Date()`"
 ---
 
+<!-- - If you want to be added to the ["Peoples"](https://steno-aarhus.github.io/epi#people) section of the website, please fill out this [survey]() -->
+
+Things to get familiar with the group:
+
+1. Read the [How-to docs](how-to.html).
+2. [Subscribe](how-to.html#subscribe-calendar) to the calendar
