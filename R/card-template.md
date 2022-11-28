@@ -8,7 +8,7 @@
 
 ## Meeting details
 
-- **Location/Zoom:** Meeting room 1 before the canteen. Physical attendance is encouraged but not required. Recurring Zoom link: {{link}} (passcode: {{passcode}}).
+- **Location/Zoom:** Skillerum 1+2 (A201-255+A201-257). Physical attendance is encouraged but not required. Recurring Zoom link: {{link}} (passcode: {{passcode}}).
 - **Time:** 13:00-15:00
 
 ## Agenda
