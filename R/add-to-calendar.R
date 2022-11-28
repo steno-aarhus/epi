@@ -38,6 +38,12 @@ upcoming_meetings <- meeting_dates %>%
       )
 
 public_calendar_link <- "https://calendar.google.com/calendar/ical/086okoggkv7c4b0dcbbrj230s8%40group.calendar.google.com/public/basic.ics"
+read_lines(public_calendar_link) %>%
+    ic_list() %>%
+    map_dfr(ic_vector) %>%
+    names()
+    mutate(across(matches("VALUE=DATE"),
+                  ~ic_date))
 current_calendar <- ic_read(public_calendar_link) %>%
   mutate(
     DTSTART = with_tz(ymd_hms(DTSTART), "Europe/Copenhagen"),

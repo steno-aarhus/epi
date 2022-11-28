@@ -27,7 +27,13 @@ upcoming_board_id <- get_board_lists(board_url, token = token) %>%
 upcoming_board_cards <- get_board_cards(board_url, token = token) %>%
     filter(idList == upcoming_board_id)
 
+zoom_link <- askpass("Add Zoom link.")
+zoom_passcode <- askpass("Add Zoom passcode.")
 template_card <- read_lines(here::here("R/card-template.md")) %>%
+    whisker::whisker.render(data = list(
+        passcode = zoom_passcode,
+        link = zoom_link
+    )) %>%
     str_c(collapse = "\n")
 
 # Use to check if there are any new additions before updating.
@@ -46,3 +52,7 @@ walk(
         token = token
     )
 )
+
+upcoming_board_cards %>%
+    pull(id) %>%
+    map(delete_card, token = token)
