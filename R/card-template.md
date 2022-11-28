@@ -8,7 +8,7 @@
 
 ## Meeting details
 
-- **Location/Zoom:** Meeting room 1 before the canteen. If you need to participate via Zoom, please let us know by writing a comment in this card. Physical attendance is encouraged but not required. {{ADD LINK IF REQUESTED}}
+- **Location/Zoom:** Meeting room 1 before the canteen. Physical attendance is encouraged but not required. Recurring Zoom link: {{link}} (passcode: {{passcode}}).
 - **Time:** 13:00-15:00
 
 ## Agenda
