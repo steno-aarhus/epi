@@ -1,3 +1,4 @@
+source(here::here("R/functions.R"))
 # Comments will be added over time.
 library(tidyverse)
 library(lubridate)
@@ -27,25 +28,26 @@ upcoming_board_id <- get_board_lists(board_url, token = token) %>%
     pull(id)
 
 public_calendar_link <- "https://calendar.google.com/calendar/ical/086okoggkv7c4b0dcbbrj230s8%40group.calendar.google.com/public/basic.ics"
-upcoming_meetings <- ic_read(public_calendar_link) %>%
-    mutate(
-        DTSTART = with_tz(ymd_hms(DTSTART), "Europe/Copenhagen"),
-        DTEND = with_tz(ymd_hms(DTEND), "Europe/Copenhagen")
-    ) %>%
-    arrange(DTSTART)
+upcoming_meetings <- read_ical(public_calendar_link)
 
 meetings_to_add <- upcoming_meetings %>%
     transmute(year = year(DTSTART),
               date = as.character(as_date(DTSTART))) %>%
-    filter(year == "2022")
+    filter(year == "2023")
 
 meeting_label <- get_board_labels(board_url, token = token) %>%
     filter(name == "Meeting") %>%
     pull(id)
 
-template_card_desc <- read_lines(here::here("R/card-template.md"))
+zoom_link <- askpass("Add Zoom link.")
+zoom_passcode <- askpass("Add Zoom passcode.")
+template_card_desc <- read_lines(here::here("R/card-template.md")) %>%
+    whisker::whisker.render(data = list(
+        passcode = zoom_passcode,
+        link = zoom_link
+    ))
 
-meetings_to_add$date[-1] %>%
+meetings_to_add$date %>%
     walk(
         ~ add_card(
             upcoming_board_id,
