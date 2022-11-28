@@ -8,19 +8,19 @@ stop("This prevents accidentally sourcing the whole script.")
 
 meeting_dates <- tribble(
         ~month, ~day,
-        "January", 3,
-        "February", 7,
-        "March", 7,
-        "April", 4,
-        "May", 2,
-        "June", 13,
-        "September", 5,
-        "October", 3,
-        "November", 7,
-        "December", 5
+        "January", 9,
+        "February", 6,
+        "March", 6,
+        "March", 24,
+        "May", 1,
+        "June", 5,
+        "September", 4,
+        "October", 9,
+        "November", 6,
+        "December", 4
     ) %>%
     mutate(
-        year = "2022",
+        year = "2023",
         date = ymd(glue("{year}-{month}-{day}"), tz = "Europe/Copenhagen"),
         start_time = "13:00",
         end_time = "15:00"
