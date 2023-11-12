@@ -43,7 +43,7 @@ date: "`r Sys.Date()`"
 
 ### Using R scripts for admin
 
-* Scripts to add meetings to the calendar and to Trello are found here: https://github.com/steno-aarhus/admin/R
+* Scripts to add meetings to the calendar and to Trello are found in the `{sdcar}` package: https://github.com/steno-aarhus/sdcar
 
 ### Using Google Drive
 
