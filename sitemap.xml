@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
-  <url>
-    <loc>https://steno-aarhus.github.io/epi/how-to.html</loc>
-    <lastmod>2022-03-25T13:32:48+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/epi/</loc>
-    <lastmod>2022-03-25T13:32:48+00:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://steno-aarhus.github.io/epi/LICENSE.html</loc>
-    <lastmod>2022-03-25T13:34:52+00:00</lastmod>
+    <lastmod>2024-02-18T03:09:51.688Z</lastmod>
   </url>
   <url>
-    <loc>https://steno-aarhus.github.io/epi/newcomers.html</loc>
-    <lastmod>2022-03-25T13:32:48+00:00</lastmod>
+    <loc>https://steno-aarhus.github.io/epi/directory.html</loc>
+    <lastmod>2024-02-18T03:09:51.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/epi/index.html</loc>
+    <lastmod>2024-02-18T03:09:51.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/epi/how-to.html</loc>
+    <lastmod>2024-02-18T03:09:51.696Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/epi/roles.html</loc>
-    <lastmod>2022-03-25T13:32:48+00:00</lastmod>
+    <lastmod>2024-02-18T03:09:51.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/epi/newcomers.html</loc>
+    <lastmod>2024-02-18T03:09:51.696Z</lastmod>
   </url>
 </urlset>
