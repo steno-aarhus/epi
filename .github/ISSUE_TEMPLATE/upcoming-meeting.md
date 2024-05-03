@@ -28,7 +28,6 @@ assignees: ''
     - NAME: *TITLE*
     - NAME: *TITLE*
 - (30 min) Presentation by NAME: *TITLE*
-- (45-60 min) Paper discussion and review
 
 ## Minutes
 
