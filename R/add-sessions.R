@@ -36,6 +36,6 @@ updated_calendar <- current_sessions |>
 updated_calendar |>
   write_ical(here::here("calendar.ics"))
 
-# Not implemented yet
-# upcoming_sessions |>
-#   epi_create_session_issues()
+# This takes a bit of time if there are a lot of dates
+upcoming_sessions |>
+  epi_create_session_issues()
