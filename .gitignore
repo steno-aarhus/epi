@@ -2,8 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-docs/
+.httr-oauth
+.DS_Store
 _site
-.Rbuildignore
-
 /.quarto/
