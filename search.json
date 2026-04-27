@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SDCA Epidemiology Group",
-    "section": "",
-    "text": "Warning\n\n\n\n🚧 This website is still under development. 🚧\n\n\n\nAbout us\nWe are a group of researchers working within the Steno Diabetes Center Aarhus. Our research spans multiple fields, all of which are tied by the study of diabetes.\n\n\nMission\nTODO: Add from strategy document\n\n\nVision\nTODO: Add from strategy document"
-  },
-  {
     "objectID": "LICENSE.html",
     "href": "LICENSE.html",
     "title": "SDCA Epidemiology Group",
@@ -70,11 +63,11 @@
     "text": "Manuscript reviews\n\nPresenter/author\n\nPre-meetings\n\nThe author of the paper should (preferably) attach the paper to the meeting card at least 5 days before the meeting.\n(at some point we will get the presenter/author to record a max 10 min presentation on some key points of the paper and what they are looking for in feedback.)\nThe author should write an explicit explanation of what they are looking for or wanting feedback on, written as a comment at the bottom of the meeting card before the meeting.\nThe author should make a brief presentation going over the results.\n\n\n\nDuring meetings\n\nThe paper author can review the feedback and ask for clarification to some questions during meeting.\nThe chairperson can also choose some items that they feel might be beneficial to discuss with the rest of the group.\n\n\n\n\nAudience\n\nLead reviewers\n\nAdmin will assign at least two (hopefully self-volunteered) members as lead reviewers.\nThese reviewers are expected to be more detailed in their review compared to other group members.\n\nReviewer comments, feedback, and/or questions should be added to the meeting card as comments at the bottom of the card.\n\n\n\n\nEveryone else\n\nAny questions, comments, or feedback are highly encouraged! Please write them down in either the Zoom chat during the meeting’s designated time or write them in the Trello board on the appropriate card for the meeting date. Anything relevant to the paper will be posted to the appropriate meeting card in the Trello board.\n\nWe’re doing it this way so that:\n\nEveryone has a chance to voice their thoughts and ideas.\nOthers can look over the type of comments and feedback given and use that for their own work (especially relevant to trainees/early career members and as a way of sharing knowledge).\nWe maximize the usefulness of the meeting time.\nWe are as inclusive as possible (not everyone feels comfortable voicing their thoughts).\nPresenters/authors can review the comments and feedback afterwards.\nWe have a record of typical comments and feedback that we can start building from as a resource for trainees/early career group members to learn from.\n\n\nThe chairperson and the paper author will go through the comments and ask for more information or explanation."
   },
   {
-    "objectID": "directory.html",
-    "href": "directory.html",
-    "title": "Website Directory",
+    "objectID": "newcomers.html",
+    "href": "newcomers.html",
+    "title": "New to the group? Welcome!",
     "section": "",
-    "text": "These are other websites across Steno Aarhus:\n\nOfficial site: The official Region Midt website for more general public information and details.\nResearch Common Docs: Common documents and operating prodecures for researchers across Steno Aarhus.\nEpidemiology and Statistics: Events and activities related to epidemiology and statistics.\nRegister Research Space: Events and activities related to register-based research.\nInternationalization: Efforts to spread knowledge and connect with other countries, specifically Latin America.\nEpidemiology Group: Documentation for meetings within the epidemiology group.\nCoding Cafe: Schedule for in-person coding support and help."
+    "text": "Things to get familiar with the group:\n\nRead the How-to docs.\nSubscribe to the calendar"
   },
   {
     "objectID": "roles.html",
@@ -98,10 +91,10 @@
     "text": "Scripts to add meetings to the calendar and to Trello are found in the {sdcar} package: https://github.com/steno-aarhus/sdcar\n\n\n\n\nSteno Drive is here: https://drive.google.com/drive/folders/1WfuGzUeiSHYiecFcN7dJdfMMIF63iKGM\n\nUse this for e.g. making surveys for getting details from people\n\n\n\n\nDear …\nWelcome to our Epidemiology group!\nHere is your invite to our Trello board: ADD BOARD LINK BEFORE SENDING\nHere you can:\n\nFind “upcoming meetings” with time, location, and agenda\nRead minutes from previous meetings\n\nLook over the SDCA Epidemiology Group website for how-to information and other details.\nKind regards,\nNAME"
   },
   {
-    "objectID": "newcomers.html",
-    "href": "newcomers.html",
-    "title": "New to the group? Welcome!",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SDCA Epidemiology Group",
     "section": "",
-    "text": "Things to get familiar with the group:\n\nRead the How-to docs.\nSubscribe to the calendar"
+    "text": "Warning\n\n\n\n🚧 This website is still under development. 🚧\n\n\n\nAbout us\nWe are a group of researchers working within the Steno Diabetes Center Aarhus. Our research spans multiple fields, all of which are tied by the study of diabetes.\n\n\nMission\nTODO: Add from strategy document\n\n\nVision\nTODO: Add from strategy document"
   }
 ]
